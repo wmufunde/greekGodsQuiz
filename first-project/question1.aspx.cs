@@ -27,4 +27,18 @@ public partial class question1 : System.Web.UI.Page
             }
         }
     }
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        if (RadioButtonList1.SelectedValue == "Zeus")
+        {
+            Submit_answer.score++;
+            Label1.Text = "You are correct";
+        }
+
+        else
+        {
+            Label1.Text = "You are wrong. Zeus is the correct answer.";
+        }
+    }
 }

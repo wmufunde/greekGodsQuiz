@@ -16,4 +16,19 @@ public partial class question4 : System.Web.UI.Page
     {
         Response.Redirect("question5.aspx");
     }
+
+
+    protected void Button1_Click1(object sender, EventArgs e)
+    {
+        if (RadioButtonList1.SelectedValue == "Hera")
+        {
+            Submit_answer.score++;
+            Label1.Text = "You are correct";
+        }
+
+        else
+        {
+            Label1.Text = "You are wrong. Hera is the correct answer.";
+        }
+    }
 }
