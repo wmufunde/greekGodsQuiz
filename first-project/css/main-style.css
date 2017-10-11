@@ -1,0 +1,36 @@
+﻿body {
+     background-image: url('../img/greece.jpg');
+     background-size:100%;
+     background-repeat: no-repeat;
+     /*text-align: center;*/
+     color: white;
+
+}
+
+form {
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    padding: 10px;
+
+
+}
+
+.child{
+ /*   margin-left: 10px;*/
+    width: 250px;
+
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.child img{
+    display: block;
+     width: 90%;
+     height: 70%;
+     margin:10px;
+     overflow: auto;
+}
