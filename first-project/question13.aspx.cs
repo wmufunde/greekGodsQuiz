@@ -29,5 +29,8 @@ public partial class question13 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Persephone is the correct answer.";
         }
+
+        Button2.Enabled = false;
+
     }
 }

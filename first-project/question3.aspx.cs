@@ -31,5 +31,7 @@ public partial class question3 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Cows is the correct answer.";
         }
+
+        Button1.Enabled = false;
     }
 }

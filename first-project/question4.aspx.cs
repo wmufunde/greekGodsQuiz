@@ -30,5 +30,8 @@ public partial class question4 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Hera is the correct answer.";
         }
+
+        Button1.Enabled = false;
+
     }
 }

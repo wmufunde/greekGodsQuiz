@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="animated bounce">
+    <div class="animated fadeIn">
     <form id="form1" class ="parent container " runat="server"> 
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
             <div class="child">
@@ -40,7 +40,7 @@
        
          <div class="child">
        
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/img/zeus.jpg" class="animated bounceIn"/>
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/img/zeus.jpg"/>
         </div>
        
       </form> 

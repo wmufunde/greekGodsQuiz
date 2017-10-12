@@ -29,5 +29,7 @@ public partial class question5 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Lead is the correct answer.";
         }
+
+        Button1.Enabled = false;
     }
 }

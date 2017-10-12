@@ -29,5 +29,8 @@ public partial class question12 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Psyche is the correct answer.";
         }
+
+        Button2.Enabled = false;
+
     }
 }

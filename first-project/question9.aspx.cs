@@ -29,5 +29,7 @@ public partial class question9 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Zephyros is the correct answer.";
         }
+
+        Button2.Enabled = false;
     }
 }

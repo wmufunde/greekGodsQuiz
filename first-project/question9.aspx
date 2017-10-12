@@ -4,12 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Greek God quiz</title>
+    <link href="css/main-style.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <h1>Greek Gods Quiz</h1>
+
+    <div class="animated fadeIn">
+    <form id="form1" class ="parent container " runat="server"> 
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <div class="child">
+    
+        <h1 >Greek gods quiz</h1>
+
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
         <h2>Which is the god of the West Wind?</h2>
         <asp:RadioButtonList ID="RadioButtonList1" runat="server" AutoPostBack="True">
             <asp:ListItem>Zephyros</asp:ListItem>
@@ -23,7 +32,17 @@
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <br />
         <asp:Button ID="Button10" runat="server" Text="Next Question" OnClick="Button10_Click" />
-    </div>
-    </form>
+    </ContentTemplate>
+  </asp:UpdatePanel>
+</div>
+       
+         <div class="child">
+       
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/img/zephyr.jpg"/>
+        </div>
+       
+      </form> 
+         </div>
+    <br />
 </body>
 </html>

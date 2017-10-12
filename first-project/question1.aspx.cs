@@ -34,11 +34,14 @@ public partial class question1 : System.Web.UI.Page
         {
             Submit_answer.score++;
             Label1.Text = "You are correct";
+            
         }
 
         else
         {
             Label1.Text = "You are wrong. Zeus is the correct answer.";
         }
+
+        Button2.Enabled = false;
     }
 }

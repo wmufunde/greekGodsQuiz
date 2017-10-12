@@ -29,5 +29,7 @@ public partial class question8 : System.Web.UI.Page
         {
             Label1.Text = "You are wrong. Athena is the correct answer.";
         }
+
+        Button2.Enabled = false;
     }
 }

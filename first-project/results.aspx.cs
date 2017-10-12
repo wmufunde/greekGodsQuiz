@@ -9,6 +9,5 @@ public partial class results : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
-    }
+        Label1.Text = "You score is: " + Submit_answer.score;    }
 }
